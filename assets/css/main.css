@@ -1,0 +1,2131 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.IBM-H2{
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.IBM-Header-Link{
+    color: #ffffff;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.IBM-Header-Section > h1{
+    font-family: LubalinForIBM;
+}
+
+.IBM-Header-Section > h4{
+    font-family: LubalinForIBM;
+    font-size: 24px;
+}
+
+#IBM {
+  color: #ffffff;
+  text-decoration: none;
+}
+#IBM:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blue {
+    background-color: #83d1f5;
+    color: #174778;
+}
+
+.IBM-nav {
+    background-image: none;
+    background-repeat: none !important;
+    box-shadow: none;
+    background-color: rgb(255,0,255, 0) !important;
+    border: none;
+}
+
+.IBM-Header-Section {
+}
+
+footer{
+    padding: 10px 0 0 0;
+}
+
+/**Colours**/
+.yellow {
+    background-color: #FFB800;
+    color: #001934;
+}
+
+.pastel-yellow {
+    background-color: #FECC66;
+    color: #454D56;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.lightgreen {
+    background-color: #ddf1f0;
+}
+
+.red{
+    background-color: #dc3739;
+    color: #f8f8f8;
+}
+
+.grey{
+    background-color: #252525;
+    color: #fff;
+}
+
+.black{
+    background-color: #000000;
+    color: #f8f8f8;
+}
+
+/*Welcome Page Colours*/
+.grey-gradient{
+    background: -webkit-linear-gradient(left, #fff 50%, #f7f7fa);
+    background: -o-linear-gradient(right, #fff 50%, #f7f7fa);
+    background: -moz-linear-gradient(right, #fff 50%, #f7f7fa);
+    background: linear-gradient(to right, #fff 50%, #f7f7fa);
+    color: #174778;
+}
+
+.teal {
+    background-color: #202a32;
+    color: #fff;
+}
+
+.pastel-red {
+    background-color: #f15b41;
+    color: #fff;
+}
+
+/*About Page Colours*/
+.light-grey {
+    background-color: #f7f7fa;
+    color: #174778;
+}
+
+.deep-blue {
+    background-color: #003c6b;
+    color: #fff;
+}
+
+/*What Page Colors*/
+.mid-grey {
+    background-color: #464646;
+    color: #fff;
+}
+
+.beige {
+    background-color: #efe7d6;
+    color: #334a5a;
+    background-image: url(../img/what/5in5Background.png);
+}
+
+/*Buttons: Default State*/
+.btn-IBM-dark{
+    color: #454d56;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #454d56;
+    padding: 10px 35px 10px 35px;
+    text-decoration: none;
+    font-weight: 200;
+    border-radius: 0px;
+}
+
+.btn-IBM-light{
+    color: #fff;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #fff;
+    padding: 10px 35px 10px 35px;
+    text-decoration: none;
+    font-weight: 200;
+    border-radius: 0px;
+}
+
+.btn-IBM-navy{
+    color: #174778;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #174778;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+.btn-IBM-dark-navy{
+    color: #001934;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #001934;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+.btn-IBM-aqua{
+    color: #80ada7;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #80ada7;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+
+/** Buttons: Hover State, Fill **/
+.btn-IBM-dark:hover{
+    transition:all .3s;
+    background-color:#454d56;
+    -webkit-font-smoothing:subpixel-antialiased;
+    -moz-osx-font-smoothing:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:none;
+    color:white;
+}
+
+.btn-IBM-light:hover{
+    transition:all .3s;
+    background-color:#fff;
+    -webkit-font-smoothing:subpixel-antialiased;
+    -moz-osx-font-smoothing:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:none
+}
+
+.btn-IBM-navy:hover{
+    transition:all .3s;
+    background-color:#174778;
+    -webkit-font-smoothing:subpixel-antialiased;
+    -moz-osx-font-smoothing:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:none
+}
+
+.btn-IBM-dark-navy:hover{
+    transition:all .3s;
+    background-color:#001934;
+    -webkit-font-smoothing:subpixel-antialiased;
+    -moz-osx-font-smoothing:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:none
+}
+
+.btn-IBM-aqua:hover{
+    transition:all .3s;
+    background-color:#80ada7;
+    -webkit-font-smoothing:subpixel-antialiased;
+    -moz-osx-font-smoothing:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:none
+}
+
+
+/**Buttons: Hover State, Text Colour**/
+.grey-gradient .btn-IBM-navy:hover{
+    color:#f7f7fa;
+}
+
+.pastel-yellow .btn-IBM-dark:hover{
+    color:#FECC66;
+}
+
+.pastel-red .btn-IBM-light:hover {
+    color:#f15b41;
+}
+
+.teal .btn-IBM-dark:hover {
+    color: #202a32;
+}
+
+.light-grey .btn-IBM-navy:hover {
+    color: #f7f7fa;
+}
+
+.yellow .btn-IBM-dark-navy:hover {
+    color: #FFB800;
+}
+
+.deep-blue .btn-IBM-light:hover {
+    color: #003c6b;
+}
+
+.grey .btn-IBM-aqua:hover {
+    color: #252525;
+}
+
+.mid-grey .btn-IBM-light:hover {
+    color: #464646;
+}
+
+.beige .btn-IBM-dark:hover {
+    color: #efe7d6;
+}
+
+.blue .btn-IBM-navy:hover {
+    color: #83d1f5;
+}
+
+
+
+
+.yellow .btn-IBM-dark:hover{
+    color:#facc2e;
+}
+
+.blue .btn-IBM-dark:hover{
+    color:#83d1f5;
+}
+
+.red .btn-IBM-dark:hover{
+    color:#dc3739;
+}
+
+.yellow .btn-IBM-light:hover{
+    color:#facc2e;
+}
+
+.blue .btn-IBM-light:hover{
+    color:#83d1f5;
+}
+
+.red .btn-IBM-light:hover{
+    color:#dc3739;
+}
+
+.white .btn-IBM-dark:hover{
+    color:#ffffff;
+}
+
+.white .btn-IBM-light:hover{
+    color:#ffffff;
+}
+
+.lightgreen .btn-IBM-dark:hover{
+    color:#ddf1f0;
+}
+
+.lightgreen .btn-IBM-light:hover{
+    color:#ddf1f0;
+}
+
+.black .btn-IBM-light:hover{
+    color:#000000;
+}
+
+.grey-gradient .btn-IBM-dark:hover{
+    color:#f7f7fa;
+}
+
+/*
+.navbar-default-IBM {
+    background-color: transparent;
+    border-color: transparent;
+}
+*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.local-video-container {
+    width: 100%;
+    height: 100%;
+    background-color:#BFB19C;
+}
+ 
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Parallax effect and backgrounds*/
+.parallax {
+  /*height: 300px;*/
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax-3 {
+    background-image: url("../img/home/car.jpg");
+    color: #f8f8f8;
+}
+
+.parallax-2 {
+    background-image: url("../img/what/watson.jpg");
+    color: #f8f8f8;
+}
+
+.parallax-1 {
+    background-image: url("../img/home/hero.jpg");
+    background-size:100% 100%;
+    color: #fff;
+}
+
+.parallax-4 {
+    background-image: url("../img/about/earth1440x800.jpg");
+    background-size: 100% 100%;
+    color: #fff;      
+}
+
+.parallax-5 {
+    background-image: url("../img/why/cos.jpg");
+    background-size: cover;
+    /* background-size: 100% 100%; */  
+}
+
+.parallax-6 {
+    background-image: url("../img/why/people.jpg");
+    color: #ffffff;
+}
+
+.arrow{
+    width: 80px;
+    margin-top: 20px;
+}
+/*Positioning*/
+
+.title-padding-top{
+    margin-top: 40%;
+}
+
+.ix-logo{
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.row-align-items-center {
+    display:flex;
+    align-items: center;
+}
+
+.IBM-Tile {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.IBM-Tile-Title {
+    margin-top: 0px;
+}
+
+.IBM-Tile-Content {
+    padding: 20px;
+}
+
+.IBM-Tile-Content a {
+    color: #00544e;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.IBM-Tile-Content a:hover {
+    text-decoration: none;
+}
+
+.IBM-Tile-Tag {
+    color: #00544e;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-center{
+    margin: 0 auto;
+}
+
+
+
+.IBM-Margin-Bottom-30{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: LubalinForIBM;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: LubalinForIBM;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: LubalinForIBM;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: LubalinForIBM;
+    font-weight:100;
+    font-size: 18px;
+}
+
+h5 {
+    font-family: LubalinForIBM;
+    font-weight:80;
+    font-size: 12px;
+}
+
+p {
+    font-family: HelvNeueForIBM;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.IBM-H4 {
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.small-device-text {
+    padding: 20px 20px;
+}
+
+/*Section heights*/
+.apple {
+    padding-top: 270px;
+    padding-bottom: 270px;
+}
+
+.watson {
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+
+/*Welcome Page*/
+.page-title-section {
+    padding-top: 250px;
+    padding-bottom: 360px;
+}
+
+.made-with-ibm {
+    padding-top:150px; 
+    padding-bottom:150px;
+}
+
+.who-we-are-section {
+    background-image: url(../img/welcome/thinkRoad800.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto 100%;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+.ibm-smartcloud-section {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-image: url(../img/welcome/smartcloud1440.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+}
+
+.align-section-right {
+    width:90%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/*Made with IBM Page*/
+.cooking-section-background {
+    background-image:url(../img/about/small_steps_trans.png);
+}
+
+.texas-section-background {
+    background-image: url(../img/about/bokehBackgroundBlue500.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40% 100%;
+}
+
+/*What We Do Page*/
+.what-we-do-section-background {
+    background-image: url("../img/what/watson.gif");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: auto 50%;  
+}
+
+
+
+
+/*Smartcloud Page*/
+.IBM-SmartCloud {
+    padding-top: 190px;
+    padding-bottom: 150px;
+}
+
+@media(max-width:767px){
+     .IBM-SmartCloud {
+        padding-top: 70px;
+        padding-bottom: 100px;
+
+    }
+}
+
+@media(min-width:768px){
+    .IBM-SmartCloud {
+        padding-top: 140px;
+        padding-bottom: 150px;
+
+    }
+}
+
+@media(min-width:992px){
+    .IBM-SmartCloud {
+        padding-top: 190px;
+        padding-bottom: 150px;
+
+    }
+}
+
+
+/*General*/
+.large-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.extra-large-section {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+.footer {
+    background-color: #ffffff;
+}
+
+.footer p{
+    font-size: 14px;
+}
+
+.fives{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    height: 600px;
+}
+
+.fivesMenu{
+    padding: 30px 30px !important;
+}
+
+.carousel-inner{
+    height: 600px;
+}
+
+.active{
+    background-image: url(../img/what/5in5Background.png);
+}
+
+.IBM-Fives > li > a{
+    color: #454d56;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.IBM-Fives > li > a:hover{
+    color: #ffb800;
+    background-color: transparent !important;
+}
+
+.IBM-Fives > li > a:focus{
+    color: #FFF;
+    background-color: transparent !important;
+    
+}
+
+.padding-top{
+    padding-top: 10%;
+}
+
+.padding-bottom {
+    padding-bottom: 150px;
+}
+
+@media(max-width:767px){
+    h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .IBM-H2{
+        font-size: 18px;
+    }
+    
+    .arrow{
+        width: 40px;
+        margin-top: 10px;
+    }
+    
+    .btn-SmartCloud{
+        margin-bottom: 20px;
+    }
+    .page-section {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    
+    .large-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .extra-large-section {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    
+    .who-we-are-section {
+        width: 100%;
+        padding: 150px 15px 210px 15px;
+        margin-left: auto;
+        background-image: url(../img/welcome/thinkBottom768.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100% auto;
+    }
+    
+    .texas-section-background {
+        background-image: none;
+    }
+    
+    .align-section-right {
+        width: 100%;
+        padding: 180px 15px;
+        margin-right: auto;
+    }
+    
+    
+    .what-we-do-section-background {
+        background-image: url("../img/what/watson.gif");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: auto 40%; 
+        padding-top: 150px;
+        padding-bottom: 230px;
+    }
+    
+    .ibm-smartcloud-section {
+        padding-top: 120px;
+        padding-bottom: 160px;
+        background-image: url(../img/welcome/smartcloud1440.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100% auto;
+    }
+    
+    .parallax-3 {
+        background-image: url("../img/home/car.jpg");
+        color: #f8f8f8;
+    }
+    
+    .parallax-1 {
+        background-image: url("../img/home/hero.jpg");
+        background-size:auto 568px;
+        background-position: top right;
+        color: #fff;
+    }
+    
+    .parallax-6 {
+    background-image: url("../img/why/people-small.jpg");
+    color: #ffffff;
+    }
+    
+    .fives-intro-section-background {
+    background:
+        url(../img/what/5in5Background.png);
+        padding-top: 20%;
+    }
+    
+    .padding-bottom {
+        padding-bottom: 20px;
+    } 
+    
+    .footer {
+    padding: 10px 0 0 0;
+        font-size: 12px
+    }
+}
+
+
+.btn-padding {
+    margin-top: 10px;
+}
+
+/*Font Face Declarations*/
+@font-face {
+    font-family: LubalinForIBM;
+    src: url(../fonts/LubalinforIBM-Book.otf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: LubalinForIBM;
+    src: url("../fonts/LubalinforIBM-Demi.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: LubalinForIBM;
+    src: url("../fonts/LubalinforIBM-ExtraLight.otf") format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("../fonts/HelvNeueforIBM.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("../fonts/HelvNeueforIBM-Light.otf") format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("../fonts/HelvNeueforIBM-Medium.otf") format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("../fonts/HelvNeueforIBM-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+/*------------------------------------------------------------------------------------------------*/
+/*NavBar Changes*/
+/*------------------------------------------------------------------------------------------------*/
+.navbar-default{
+    border:none;
+}
+.nav-bar-two{
+    background-color: #8C8E8C;
+    padding:0;
+    float:none;
+}
+
+.navbar-default .navbar-nav li .nav2-label{
+    color:white; 
+}
+.navbar-default .navbar-nav li .nav2-label:hover{
+    color:white; 
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color:#8C8E8C !important; 
+}
+
+.nav-option{
+padding-bottom: 8px;
+padding-left: 2px;
+padding-right: 2px;
+float:none;
+}
+
+.nav-option:hover{
+border-bottom:2px #00A0DE solid;
+}
+
+.selected-nav-option{
+border-bottom:2px #00A0DE solid;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 985px;
+  }
+}
+
+.nav2-label{
+    height:100% !important;
+}
+
+.solitary-nav{
+    height:50px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*Footer Page Styles*/
+/*------------------------------------------------------------------------------------------------*/
+
+.BackToTopSection{
+    height: 200px;
+    background-color:#343434;
+    color:white;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.IBM-footer{
+    background-color:#343434;
+    color:white;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*Welcome Page Styles*/
+/*------------------------------------------------------------------------------------------------*/
+
+/*header panel*/
+.welcome-header-panel {
+    background-image: url("../img/home/hero.jpg");
+    min-height: 600px;
+    background-size:cover;
+    background-position: center top;
+    position: relative;
+    color: #fff;
+   	background-position-y: 100%;
+}
+@media(max-width:767px){
+    .welcome-header-panel {
+        background-image: url("../img/home/hero.jpg");
+        color: #fff;
+    }
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .welcome-header-panel {
+        background-attachment:scroll;
+
+    }
+
+}
+
+.welcome-text-content{
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 30;
+}
+
+.welcome-block{
+    height:100%;
+    width:100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgba(0,0,0,0.5);
+}
+/*elevator pitch*/
+.elevator-pitch-panel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #00A0DE;
+    color: white;   
+}
+
+@media(max-width:767px){
+    .elevator-pitch-panel {
+        padding-top: 50px;
+        padding-bottom: 50px;  
+    }
+}
+
+/*postit picture block paralax*/
+
+.welcome-picture-panel {
+    background-image: url("../img/home/postit.jpg");
+    background-size: cover;
+    color: #f8f8f8;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+@media(max-width:767px){
+   .welcome-picture-panel {
+        background-image: url("../img/home/postit.jpg");
+        color: #f8f8f8;
+    }
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .welcome-picture-panel {
+        background-attachment:scroll;
+
+    }
+
+}
+
+/*Team Carousel Styles*/
+
+.Team-Carousel-Pic {
+    margin-top: 20px;
+    border-radius:50%;
+    border: 4px #00A0DE solid;
+}
+
+.team-section {
+    min-height: 1100px;
+    padding-top: 80px;
+    text-align: center;
+    background: #fff;
+}
+
+.team-carousel-container{
+    padding:20px;
+}
+
+.slick-slide {
+    transition: .5s;
+}
+
+.center .slick-center {
+    -moz-transform: scale(1.50);
+    -ms-transform: scale(1.50);
+    -o-transform: scale(1.50);
+    -webkit-transform: scale(1.50);
+    transform: scale(1.50);
+}
+.meetTheTeamMembersName {
+    font-size:22px;
+    font-family: LubalinForIBM;
+}
+
+.meetTheTeamMembersRole {
+    font-size:18px;
+    font-family: LubalinForIBM;
+    font-weight:400;
+}
+
+.meetTheTeamTitle {
+    padding-bottom: 50px;
+    text-align: left;
+    font-family: LubalinForIBM;
+}
+
+.meetTheTeamInfo {
+    background-color: transparent;
+    color: black;
+    transition: 0.5s;
+    position: relative;
+    top: -120px;
+    max-width: 400px;
+}
+
+
+.slick-track {
+    z-index: 1;
+}
+
+.slick-list {
+    height: 300px;
+}
+
+.slick-slider {
+    margin-bottom: 0px;
+}
+
+.meetTheTeamText {
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .team-section {
+        min-height:300px;
+        padding-top: 20px;
+    }
+    .meetTheTeamMembersInfo {
+        display: none;
+    }
+    .meetTheTeamMembersName {
+        top: 40px;
+        font-size: 17px;
+    }
+    .meetTheTeamMembersRole {
+        top: 40px;
+        font-size: 14px;
+    }
+}
+
+/* iPhone 3GS, 4, 4S & 5 */
+@media screen and (min-width: 320px) and (max-width: 350px) { 
+    .team-section {
+        padding-top: 20px;
+    }
+    .Team-Carousel-Pic {
+        height: 150px;
+        magine: none;
+    }
+}
+
+/* iPhone 6 */
+@media screen and (min-width: 351px) and (max-width: 376px) { 
+        .team-section {
+        height: 560px;
+        padding-top: 20px;
+    }
+        .meetTheTeamTitle {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+        .meetTheTeamText {
+        font-size: 13px;
+    }
+       .Team-Carousel-Pic {
+        margin-left: 4px;
+    }
+}
+/*------------------------------------------------------------------------------------------------*/
+/* BLOG PAGE STYLES */
+/*------------------------------------------------------------------------------------------------*/
+
+.IBM-Blog-Face {
+    margin-top: 20px;
+    border-radius:50%;
+    border: 4px #00A0DE solid;
+}
+
+hr {
+  width: 100%;
+}
+
+.blogImage {
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+.post-title {
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 10px;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.post-byline {
+    color: gray;
+    font-size: 18px;
+    font-weight:lighter;
+    margin-top: 0;
+}
+
+.post-bottom{
+color:red;
+border-style:solid;
+}
+/*------------------------------------------------------------------------------------------------*/
+/*delivery page specific css*/
+/*------------------------------------------------------------------------------------------------*/
+
+/*----------design panels----------*/
+
+/*----------*/
+/*design header panel*/
+/*----------*/
+.design-section {
+    height: 700px;
+    padding-top: 150px;
+    background-image: url('../img/deliver/design-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.design-block {
+    height: 80%;
+    background: #00A0DE;
+    margin-top: 5%;
+    padding: 25px;
+}
+
+/* iPad and Below */
+@media screen and (max-width: 767px) {
+
+    .design-block {
+        padding: 20px;
+    }
+    .design-section {
+        padding-top: 100px;
+
+    }
+
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .design-section {
+        background-attachment:scroll;
+
+    }
+
+}
+/*----------*/
+/*Design Thinking Panel*/
+/*----------*/
+.design-thinking-section {
+    height: 550px;
+    padding-top: 100px;
+    background-image: url('../img/deliver/design-thinking.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.design-thinking-content {
+    position: absolute;
+    width: 40%;
+    top: 450px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1630px) {
+
+    .design-thinking-content {
+        position: absolute;
+        width: 20%;
+        top: 300px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1629px) {
+
+    .design-thinking-content {
+        position: absolute;
+        width: 20%;
+        top: 150px;
+        text-align: left;
+    }
+}
+
+/* iPad and Below */
+@media screen and (max-width: 767px) {
+
+    .design-thinking-content {
+        position: absolute;
+        width: 80%;
+        top: 60%;
+    }
+}
+/*----------*/
+/*iX panel*/
+/*----------*/
+
+.ix-section {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: #001a35;
+    color: #ffffff;
+}
+
+.ix-subsection-heading {
+    margin: 40px 0 40px 0;
+    font-size: 26px;
+}
+
+.subsection-heading {
+    margin: 0px 0 20px 0;
+    font-size: 20px;
+}
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* iPad and Below */
+@media screen and (max-width: 767px) {
+    .ix-subsection-heading {
+        font-size: 20px;
+    }
+}
+
+/* iPhone 3GS, 4, 4S & 5 */
+@media screen and (min-width: 320px) and (max-width: 350px) { 
+    .ix-section {
+        min-height: 550px;
+        padding-top: 50px;
+    }
+}
+
+/*----------*/
+/*Rapid Prototyping Panel*/
+/*----------*/
+
+.rapid-prototyping-section{
+    min-height: 500px;
+    text-align: center;
+    background-color: #e5e5e5;
+    color: black;
+    text-align:left;
+    padding-bottom: 25px;
+}
+
+@media(max-width:736px) {
+    .rapid-prototyping-section{
+    min-height: 650px;
+    text-align: center;
+    background-color: #e5e5e5;
+    color: black;
+    text-align:left;
+}
+}
+
+/*----------enablement panels----------*/
+
+.build-section {
+    height: 700px;
+    padding-top: 150px;
+    background-image: url('../img/deliver/build-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.build-block {
+    height: 80%;
+    background: #7E0067;
+    margin-top: 5%;
+    padding: 25px;
+}
+
+/* iPad and Below */
+@media screen and (max-width: 767px) {
+
+    .build-block {
+        padding: 20px;
+    }
+    .build-section {
+        padding-top: 100px;
+    }
+
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .build-section{
+        background-attachment:scroll;
+
+    }
+
+}
+
+.Node-Red-Section {
+    min-height: 500px;
+    padding-top: 100px;
+    background-color: #CF000F;
+    padding-bottom: 25px;
+    color: white;
+    text-align:left;
+}
+
+.mobile-first-section-background {
+    min-height: 500px;
+    padding-top: 50px;
+    background-color: #22313F;
+    padding-bottom: 25px;
+    background-size:contain;
+    color: white;
+    text-align:left;
+}
+
+@media(max-width:767px) {
+    .Node-Red-Section {
+        text-align: center;
+        padding-top:0px;
+        min-height: 300px;
+    }
+}
+.rational-section {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #6C7A89;
+    color: white;
+    text-align:left;
+}
+
+.oracle-section {
+    min-height: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: lightgrey;
+    color: black;
+    text-align:left;
+}
+
+.IBM-pureapplication-system-section {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #F27935;
+    color: white;
+    text-align:left;
+}
+
+.devOps-section{
+	min-height: 500px;
+    padding-top: 50px;
+    padding-bottom:25px;
+    background-color: #D9CAB3;
+    color: black;
+    text-align:left;
+}
+
+.bluemix-section {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom:25px;
+    background-color: #192B38;
+    color: white;
+    text-align:left;
+}
+
+.twitterhead{
+    background-image: url("../img/deliver/twitterhead.jpg");
+    background-size: cover;
+    color: #f8f8f8;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.twitterbottom{
+    padding-top:50px;
+    background-color: white;
+    height:300px;
+}
+
+.twitterimage{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:90%;
+
+}
+
+
+/*iphone 6 plus portrait and below*/
+@media screen and (max-width: 414px){
+    .twitterhead{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .twitterbottom{
+        padding-top:50px;
+        background-color: white;
+        height:450px;
+    }
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .twitterhead{
+        background-attachment:scroll;
+
+    }
+
+}
+
+
+/*----------deploy panels----------*/
+
+/*----------*/
+/*deploy header panel*/
+/*----------*/
+.deploy-section {
+    height: 700px;
+    padding-top: 150px;
+    background-image: url('../img/deliver/deploy-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    color: #ffffff;
+    position: relative;
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .deploy-section{
+        background-attachment:scroll;
+
+    }
+
+}
+
+.deploy-block {
+    height: 80%;
+    background: #F39C12;
+    margin-top: 5%;
+    padding: 25px;
+}
+
+/* iPad and Below */
+@media screen and (max-width: 767px) {
+
+    .deploy-block {
+        padding: 20px;
+    }
+    .deploy-section {
+        padding-top: 100px;
+    }
+
+}
+
+.IBM-SAP-labs-section {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom:25px;
+    background-color: #F89406;
+    color: white;
+    text-align:left;
+}
+
+.local-delivery-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#D9CAB3;
+    color:black;
+}
+
+@media(max-width:767px){
+    .local-delivery-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.tech-platform-section {
+	 padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:white;
+    color:black;
+}
+
+@media(max-width:767px){
+    .tech-platform-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.global-delivery-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#7E0067;
+    color:white;
+}
+
+@media(max-width:767px){
+    .global-delivery-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.agile-section{
+    background-color: #50CBEE;
+    color: black;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 400px;
+}
+
+.siemens-section{
+    background-color:#F9BF3B;
+    color:black;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 400px;
+}
+/*----------other styles----------*/
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 34px;
+}
+
+/* iPad and Below */
+@media screen and (max-width: 767px) {
+
+    .subsection-heading {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*POV Page Styles*/
+/*------------------------------------------------------------------------------------------------*/
+
+/*POV general styles*/
+
+
+/*Unique Insight*/
+.unique-insight-coloured{
+    background-color:#005AB5;
+    color:white;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 100px;
+}
+
+
+/*PRODUCT*/
+.background-colour1{
+    background-color:#00A0DE;
+    color:white;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 400px;
+}
+
+.background-colour1-white{
+    background-color:white;
+    color:#00A0DE;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 400px;
+}
+
+/*CUSTOMER*/
+
+.background-colour0{
+    background-color:#7E0067;
+    color:white;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 100px;
+}
+
+.background-colour0-white{
+    background-color:white;
+    color:#7E0067;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 400px;
+}
+
+
+.statistic{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media(max-width:767px){
+    .statistic{
+        font-size: 36px;
+    }
+}
+
+.stats-box-left{
+    max-width:300px;
+    float:left;
+}
+.stats-box-right{
+    max-width:300px;
+    float:right;
+}
+
+@media(max-width:767px){
+    .stats-box-left{
+    max-width:300px;
+    float:none;
+    }
+    .stats-box-right{
+    max-width:300px;
+    float:none;
+    }
+}
+
+
+
+.stats-source{
+    font-style: italic;
+
+    font-size:11px;
+}
+
+.stats-content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+}
+.no-margin{
+    margin:0px 0px 0px 0px;
+}
+
+/*Enabling*/
+.background-colour2{
+    background-color: #F39C12;
+    color:white;
+    padding-bottom: 25px;
+    padding-top:25px;
+}
+
+.background-colour2-white{
+    background-color:white;
+    color:#F39C12;
+    padding-bottom: 25px;
+    padding-top:25px;
+    min-height: 400px;
+}
+
+/*Blurb Section*/
+
+.twentytwentyfive-block{
+    padding-top: 100px;
+}
+
+.blurb-section {
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    color: black;
+}
+@media(max-width: 736px){
+.blurb-section {
+    min-height: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    color: black;
+}
+}
+.blurb-pic{
+    max-height: 100px;
+    max-width: 100px;
+    float:left;
+}
+
+@media(max-width: 767px){
+    .blurb-pic{
+        max-height: 90px;
+        max-width: 90px;
+    }
+    .blurb-text{
+    margin-top:20px;
+    max-height: none;
+    max-width: 300px;
+    top: 0;
+    float:none;
+    text-align:left;
+}
+}
+
+.blurb-pic-block{
+    max-width:270px;
+}
+
+.blurb-text{
+    padding-top:20px;
+    max-height: 90px;
+    max-width: 350px;
+    top: 0;
+    float:none;
+    text-align:left;
+}
+
+.blurb-content{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deliver-picture-panel {
+    background-image: url("../img/deliver/auto2025.png");
+    color: #f8f8f8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+@media(max-width:767px){
+   .deliver-picture-panel {
+        background-image: url("../img/deliver/auto2025.png");
+        color: #f8f8f8;
+    }
+}
+
+/* iPad and Below */
+@media screen and (max-width: 1024px) {
+
+    .deliver-picture-panel{
+        background-attachment:scroll;
+
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*Case Studies Section*/
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+.caseStudyText {
+    height: 50px;
+    color:#000000;
+}
+
+.ref-section {
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+.portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+	background-color: white;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    background: white;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+.portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #E8E8E8;
+    color:#000000;
+}
+
+.portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+.portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio * {
+    z-index: 2;
+}
+
+
+section h3.section-subheading {
+    margin-bottom: 50px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.portfolio-modal .modal-content {
+    padding: 50px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal h2 {
+    color: #00A0DE;
+}
+
+.PortfolioThemeHeader{
+    color: #00A0DE;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.PortfolioThemeSubHeader{
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: left;
+}
+
+
+.modal-list {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+
+}
+
+.overlay-video {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color:#F6F6F6;
+}
+
+/*Made Section*/
+
+.made-section {
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    background-image: url('../img/casestudies/city.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    color: #ffffff;
+    position: relative;
+}    
+
+/* iPhone 3GS, 4, 4S & 5 */
+@media screen and (min-width: 320px) and (max-width: 350px) { 
+    .made-section {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+}
+
+/* iPhone 6 */
+@media screen and (min-width: 351px) and (max-width: 376px) { 
+    .made-section {
+        padding-top: 195px;
+        padding-bottom: 195px;
+    }
+}
+
+/* iPhone 6 PLUS */
+@media screen and (min-width: 377px) and (max-width: 415px) { 
+    .made-section {
+        padding-top: 230px;
+        padding-bottom: 230px;
+    }
+}
+
+/*-----------*/
+/*Responsive Youtube Video*/
+/*----------*/
+
+.YoutubeEmbedContainer { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%;
+} 
+ 
+
+.YoutubeEmbedContainer iframe, .YoutubeEmbedContainer object, .YoutubeEmbedContainer embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+
+/*****************/
+.center {
+	margin: auto;
+}
+
+.afskaadfsnjk {
+	margin-top: 100px;
+	
+}
+
+.heroStoryAnchor{
+	display: none;
+	margin-top: 100px;
+	
+}
+
+a.anchor{
+	display: block; 
+	position: relative; 
+	top: -100px; 
+	visibility: hidden;
+}
+
+#heroStoryContent{
+	margin-top: 100px;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	color: white;
+}
+
+#pdf-canvas{
+	width: 100%;
+	  padding: 0px 5px;
+	
+}

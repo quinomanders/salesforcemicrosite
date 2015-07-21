@@ -1,0 +1,987 @@
+/*Font Face Declarations*/
+@font-face {
+    font-family: LubalinForIBM;
+    src: url("fonts/LubalinforIBM-Book.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: LubalinForIBM;
+    src: url("fonts/LubalinforIBM-Demi.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: LubalinForIBM;
+    src: url("fonts/LubalinforIBM-ExtraLight.otf") format('opentype');
+    font-weight: 100;
+  
+    
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("fonts/HelvNeueforIBM.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("fonts/HelvNeueforIBM-Light.otf") format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("fonts/HelvNeueforIBM-Medium.otf") format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: HelvNeueForIBM;
+    src: url("fonts/HelvNeueforIBM-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+
+body{
+	font-family: LubalinForIBM;
+	text-align: center;
+}
+.spacer{
+    width:100%;
+    padding:30px 0;
+}
+.p10-sides{
+    padding:0 10px;
+}
+
+/*******    Moonwalk scrolling      *******/
+#element::-webkit-scrollbar {
+    display: none;
+}
+.horizontal-container{
+    overflow-x:hidden;
+    overflow-y: hidden;
+    position:relative;
+    width:100%;
+    height:650px;
+	transition: height .5s ease-in-out;
+	transition-delay:1s;
+}
+.modal-body .horizontal-container{
+    height: 1000px;
+
+}
+.horizontal-container .navigation{
+    position:absolute;
+    width:100%;
+    z-index:99;
+    height: 40px;
+    border-bottom: 4px solid #FFF;
+    top: 5px;
+}
+.horizontal-container .item{
+    top:10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: white;
+    width: 50px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+    color:#008ABF;
+    cursor:pointer;
+    transition: top .2s ease-in-out;
+
+}
+.horizontal-container .item.active{
+    top:20px;
+}
+.horizontal-container .holder{
+    position:absolute;
+    left:100%;
+    transition: left 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.horizontal-container .holder.active{
+    left:0 !important;
+}
+.holder .block{
+    padding:80px 0;
+}
+.horizontal-container .block{
+    width:100%;
+    height:auto;
+    padding-top: 90px;
+
+}
+.hexagon {
+    position: relative;
+    width: 50px;
+    height: 28.87px;
+    background-color: #ffffff;
+    margin: 14.43px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    left:0;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 14.43px solid #fff;
+    border-bottom-color:inherit;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 14.43px solid #fff;
+    border-top-color:inherit;
+}
+
+h2 .hexagon{display:inline-block; margin:0px;}
+
+
+.icon.cloudification{   background-image:url('../images/icons/cloudification.png');}
+.icon.application{      background-image:url('../images/icons/application.png');}
+.icon.competative{      background-image:url('../images/icons/competative.png');}
+.icon.decomissioning{   background-image:url('../images/icons/decomissioning.png');}
+.icon.demand{           background-image:url('../images/icons/demand.png');}
+.icon.finance{          background-image:url('../images/icons/finance.png');}
+.icon.optimization{     background-image:url('../images/icons/optimization.png');}
+.icon.transition{       background-image:url('../images/icons/transition.png');}
+.icon.vertical{         background-image:url('../images/icons/vertical.png');}
+
+.icon{
+    background-size: 100%;
+    background-position: center -13px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+/*******    Moonwalk scrolling end  *******/
+
+.block-content h1 {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 66px;
+	margin: 10px 0;
+}
+
+.block-content h1.sol {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 66px;
+	margin-top: -80px;
+}
+
+.block-content h2 {
+	font-size: 34px;
+	font-weight: bold;
+	margin-top: 30px;
+    clear: both;
+}
+
+.block-content h3 {
+	text-align: left;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.block-content h4 {
+	float: left;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5em;
+	margin: 10px auto;
+}
+
+.block-content h4.sol {
+	float: none;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5em;
+	margin: 10px auto;
+}
+
+.block-content h4.sol:last-of-type {
+	float: none;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5em;
+	margin-bottom: 50px;
+}
+
+.block-content h5 {
+    font-size: 12px;
+}
+
+.block-content ol {
+	line-height: 1.5;
+	margin: 30px 0px	;
+	
+}
+
+.block-content ol > li {
+	margin: 30px 0px;
+}
+.block-content ul {
+    list-style-type: square;
+    font-size: 20px;
+}
+.block-content ul > li {
+    margin: 26px 0px;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 1.5 em;
+}
+
+.block-content .invisible-link {
+	border: 2px solid red;
+}
+
+.block-content .fullwidth-image{
+	width: 100%;
+	
+}
+
+.popup-content h1 {
+    margin-bottom: 15px;
+    font-size: 3em;
+	color: #00A0DE;
+	font-weight: bold;
+}
+
+.popup-content h2 {
+  color: #00A0DE;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+
+.popup-content h3 {
+	margin-bottom: 30px;
+	margin-top: 0px;
+	text-align: left;
+    font-family: HelvNeueForIBM;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+
+.popup-content h5 {
+	margin: 20px 0 30px;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.blogpost .IBM-Blog-Face {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 4px #00A0DE solid;
+}
+
+.blogpost .post-title {
+  font-size: 36px;
+  margin-top: 48px;
+  margin-bottom: 10px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left
+}
+
+.blogpost .post-byline {
+  color: gray;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 0;
+  font-family: HelvNeueForIBM;
+}
+
+.blogpost hr {
+  width: 100%;
+}
+
+.blogpost h4 {
+	font-weight: 100;
+	  font-size: 16px;	
+	  text-align: left;
+	  font-family: HelvNeueForIBM;
+	  font-weight: 100;
+	  font-size: 16px;
+	
+}
+
+.blogpost .blogImage {
+  margin-bottom: 25px;
+  margin-right: 50px;
+}
+
+
+
+.made-section h3{
+  margin: 0px 0 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (max-width: 767px){
+	.block-content h1 {
+  	  	font-size: 36px;
+	}
+	
+	.ix-logo {
+		width: 40px;	
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+  		width: 985px;
+	}
+}
+
+.block {
+	  background-size: cover;
+	  padding: 20px 0px;
+}
+
+.arrow {
+  width: 80px;
+  margin: 20px 0px;
+}
+
+
+.block-content .anchor{
+  position: relative;
+  top: -60px;
+}
+
+.block-content .anchorNav2{
+  position: relative;
+  top: -100px;
+}
+
+@media (max-width: 992px){
+	.block-content .anchor{
+	  position: relative;
+	  top: -51px;
+	}
+}
+
+@media (min-width: 992px){
+	.block-content .nav-spacer{
+		height: 50px;
+	}
+	.block-content .nav2-spacer{
+		height: 70px;
+	}
+}	
+
+.navbar{
+	  text-align: left;
+}
+.navbar-default .nav.nav-bar-two>.active>a{
+    text-align:center;    background-color:#666 !important;
+}
+.navbar-default .navbar-nav.nav-bar-two a:hover {
+    background-color:#555 !important;
+}
+
+
+/*Team Carousel Styles*/
+
+.Team-Carousel-Pic {
+    margin-top: 20px;
+    border-radius:50%;
+    border: 4px solid;
+    border-color:rgba(255,255,255,0.4);
+}
+
+.team-section {
+    text-align: center;
+}
+
+	.slick-slide {
+    transition: .5s;
+}
+
+.center .slick-center {
+    -moz-transform: scale(1.50);
+    -ms-transform: scale(1.50);
+    -o-transform: scale(1.50);
+    -webkit-transform: scale(1.50);
+    transform: scale(1.50);
+}
+.meetTheTeamMembersName {
+    font-size:22px;
+    font-family: LubalinForIBM;
+}
+
+.meetTheTeamMembersRole {
+    font-size:18px;
+    font-family: LubalinForIBM;
+    font-weight:400;
+}
+
+.meetTheTeamTitle {
+	font-size: 60px;
+	font-weight: bold;
+
+}
+
+.meetTheTeamInfo {
+    background-color: transparent;
+    transition: 0.5s;
+    position: relative;
+    top: -70px;
+    max-width: 800px;
+	opacity: 0;
+}
+
+
+.slick-track {
+    z-index: 1;
+}
+
+.slick-list {
+    height: 300px;
+}
+
+.slick-slider {
+    margin-bottom: 0px;
+}
+
+.meetTheTeamText {
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*NavBar Changes*/
+/*------------------------------------------------------------------------------------------------*/
+.navbar-default{
+    border:none;
+}
+.nav-bar-two{
+    background-color: #8C8E8C;
+}
+
+.navbar-default .navbar-nav li .nav2-label{
+    color:white;
+}
+.navbar-default .navbar-nav li .nav2-label:hover{
+    color:white; 
+    
+}
+
+.navbar-default .navbar-nav >.active>a {
+    color:#ffffff !important; 
+}
+.navbar-default .navbar-nav li .nav2-label:hover{
+    color:white; 
+}
+
+.navbar-default .navbar-nav >.active>a {
+    color:#FFF !important;
+}
+
+.nav-option{
+padding-bottom: 8px;
+padding-left: 2px;
+padding-right: 2px;
+float:none;
+}
+
+.nav-option{
+border-bottom:2px white solid;
+}
+.nav-option:hover{
+border-bottom:2px #00A0DE solid;
+}
+
+.selected-nav-option{
+border-bottom:2px #00A0DE solid;
+}
+
+.nav2-label{
+    height:100% !important;
+    
+}
+
+.solitary-nav{
+    height:100px;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	color: white;
+}
+
+.nav-bar-two {
+  background-color: #8C8E8C;
+  border: none;
+}
+
+/* CHANGES QUINO*/
+.nav2-option{
+    text-align: center;
+
+}
+
+
+.nav-bar-two{
+    height: 70px;
+    display: inline-block;
+    float: none;
+
+}
+
+
+ul.navbar-nav2 li{
+    width: 185px;
+    height: 70px;
+    display: table;
+}
+ul.navbar-nav2 li a {
+    height: 70px !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.linkblock1{background-repeat: no-repeat; background-image: url('../images/Picture1.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
+
+.linkblock2{background-repeat: no-repeat; background-image: url('../images/Picture2.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important; z-index: 999999999;}
+
+.linkblock3{background-repeat: no-repeat; background-image: url('../images/Picture3.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
+
+.linkblock4{background-repeat: no-repeat; background-image: url('../images/Picture4.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
+
+.linkblock5{background-repeat: no-repeat; background-image: url('../images/Picture5.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
+
+.linkblock6{background-repeat: no-repeat; background-image: url('../images/Picture6.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
+
+.linkblock7{background-repeat: no-repeat; background-image: url('../images/Picture9.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
+
+
+.navbar-default .navbar-nav a.linkblock1 .nav2-option,
+.navbar-default .navbar-nav a.linkblock2 .nav2-option,
+.navbar-default .navbar-nav a.linkblock3 .nav2-option,
+.navbar-default .navbar-nav a.linkblock4 .nav2-option,
+.navbar-default .navbar-nav a.linkblock5 .nav2-option,
+.navbar-default .navbar-nav a.linkblock6 .nav2-option,
+.navbar-default .navbar-nav a.linkblock7 .nav2-option,
+.navbar-default .navbar-nav a.linkblock8 .nav2-option
+{
+    text-align: left !important;
+    margin-left: 50px;
+}
+
+
+
+.navbar-default .navbar-nav a.linkblock1:hover{
+    color:white; 
+    background-color:  #ff8f0f; background-repeat: no-repeat; background-image: url('../images/Picture1.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+.navbar-default .navbar-nav a.linkblock2:hover{
+    color:white; 
+    background-color:  #908fbf; background-repeat: no-repeat; background-image: url('../images/Picture2.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+.navbar-default .navbar-nav a.linkblock3:hover{
+    color:white; 
+    background-color:  #de5b5b; background-repeat: no-repeat; background-image: url('../images/Picture3.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+.navbar-default .navbar-nav a.linkblock4:hover{
+    color:white; 
+    background-color:  #92d5f0; background-repeat: no-repeat; background-image: url('../images/Picture4.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+
+.navbar-default .navbar-nav a.linkblock5:hover{
+    color:white; 
+    background-color:  #1ba69f; background-repeat: no-repeat; background-image: url('../images/Picture5.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+
+.navbar-default .navbar-nav a.linkblock6:hover{
+    color:white; 
+    background-color:  #434391; background-repeat: no-repeat; background-image: url('../images/Picture6.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+
+.navbar-default .navbar-nav a.linkblock7:hover{
+    color:white; 
+    background-color:  #1672b8; background-repeat: no-repeat; background-image: url('../images/Picture9.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+
+.navbar-default .navbar-nav a.linkblock8:hover{
+    color:white; 
+    background-color:  #0084ff; background-repeat: no-repeat; background-image: url('../images/Picture9.png'); background-size: 40px 43px; background-position: 15px 13px;
+}
+
+
+
+/*END CHANGES QUINO*/
+/*------------------------------------------------------------------------------------------------*/
+/*Case Studies Section*/
+/*------------------------------------------------------------------------------------------------*/
+.portfolio {
+	margin: 20px 0px;
+}
+
+.caseStudyText {
+	margin-top: 5px;
+    height: 50px;
+    color:#000000;
+}
+
+.ref-section {
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+.portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+	background-color: white;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    background: white;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: 55px;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+.portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #E8E8E8;
+    color:#000000;
+}
+
+.portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+	font-weight: 100;
+	float: none;
+    height: 60px;
+}
+
+.portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.portfolio * {
+    z-index: 2;
+}
+
+
+section h3.section-subheading {
+    margin-bottom: 50px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.portfolio-modal .modal-content {
+    padding: 50px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.PortfolioThemeHeader{
+    color: #00A0DE;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.PortfolioThemeSubHeader{
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: left;
+}
+
+.modal-list {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.center {
+  margin: auto;
+}
+
+.text-block{
+	margin: 50px auto;
+	
+}
+
+/* footer */
+.BackToTopSection {
+  font-size: 16px;
+  height: 200px;
+  background-color: #343434;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.IBM-footer {
+	  font-size: 17px;
+  background-color: #343434;
+  color: white;
+}
+footer {
+  padding: 10px 0 0 0;
+}
+.ix-logo {
+  width: 20px;
+  margin-bottom: 10px;
+}
+/* end of footer */
+
+
+/* responsive design */
+@media screen and (max-width: 767px) {
+    .team-section {
+        min-height:300px;
+        padding-top: 20px;
+    }
+    .meetTheTeamMembersInfo {
+        display: none;
+    }
+    .meetTheTeamMembersName {
+        top: 40px;
+        font-size: 17px;
+    }
+    .meetTheTeamMembersRole {
+        top: 40px;
+        font-size: 14px;
+    }
+	.arrow {
+	  width: 40px;
+	  margin-top: 10px;
+	}
+	
+	.block-content h1 {
+		line-height: 40px;
+	}
+	
+	.ix-logo {
+		width: 60px;
+	}
+	
+	.portfolio-modal .close-modal .lr {
+	    height: 40px;
+	 }
+
+	.portfolio-modal .close-modal .lr .rl {
+	    height: 40px;
+	  }
+	
+	.portfolio-modal .close-modal {
+	  right: 0px;
+	}
+	
+	iframe {
+		width: 280px;
+		height: 200px;
+	}
+}
+
+/* iPhone 3GS, 4, 4S & 5 */
+@media screen and (min-width: 320px) and (max-width: 350px) { 
+    .team-section {
+        padding-top: 20px;
+    }
+    .Team-Carousel-Pic {
+        height: 150px;
+        magine: none;
+    }
+}
+
+/* iPhone 6 */
+@media screen and (min-width: 351px) and (max-width: 376px) { 
+        .team-section {
+        height: 560px;
+        padding-top: 20px;
+    }
+        .meetTheTeamTitle {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+        .meetTheTeamText {
+        font-size: 13px;
+    }
+       .Team-Carousel-Pic {
+        margin-left: 4px;
+    }
+}
+
+
+.hexagon, 
+.hexagon-in1,
+.hexagon-in2,
+.hexagon-in3,
+.hexagon:hover .hexagon-content {
+	display: block;
+}
+.hexagon {
+  z-index: 2;
+}
+.hexagon-in1 {  
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+  transform: rotate(120deg);
+  
+}
+.hexagon-in2 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+
+}
+.hexagon-in3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+  transform: rotate(-60deg);
+  background-color: #000;
+} 
+
