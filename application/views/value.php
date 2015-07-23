@@ -1,22 +1,21 @@
-
-
 <div class="block-content">
 
 	<div class="nav2-spacer"></div>
+	
 	<div class="anchorNav2" id="why"></div>
+	
 	<div class="block" style="background-color: #81A5C1; color: #fff;">
 		<div class="container text-block">
 			<div class="row portfolio">
 				<div class="col-md-4 col-sm-6 portfolio-item">
 
-					<a data-target="#insightBox0Modal" class="portfolio-link"
-						data-toggle="modal">
+					<a data-target="#insightBox0Modal" class="portfolio-link" data-toggle="modal">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<i class="fa fa-plus fa-3x" style="color: #81A5C1;"></i>
 							</div>
-						</div> <img src="images/hero-stories/insight-box1.png"
-						class="img-responsive center" alt="">
+						</div> 
+						
 					</a>
 					<div class="portfolio-caption">
 						<h4>WHY SALESFORCE?</h4>

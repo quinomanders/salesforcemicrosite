@@ -13,11 +13,16 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
 
-
+	<!-- scrolling nav scripts -->
+    <script src="<?php echo base_url() ?>assets/js/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/scrolling-nav.js"></script>
 
 
 </head>
 
 
-<body id="page-top">
+<body id="page-top" data-spy="scroll" data-target="#navbar2">
+	
+		
+	
 

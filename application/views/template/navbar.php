@@ -16,16 +16,19 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                                     <li><a href="<?php echo base_url() ?>index.php/value">
-                            <div class="nav-option ">Value Proposition</div>
+                            <div class="nav-option <?php if($this->uri->segment(1)=="value"){echo "selected-nav-option";}?>">Value Proposition</div>
                         </a></li>
                                     <li><a href="<?php echo base_url() ?>index.php/journey">
-                            <div class="nav-option ">Journey</div>
+                            <div class="nav-option <?php if($this->uri->segment(1)=="journey"){echo "selected-nav-option";}?>">Journey</div>
                         </a></li>
                                     <li><a href="<?php echo base_url() ?>index.php/solution">
-                            <div class="nav-option ">Solution</div>
+                            <div class="nav-option <?php if($this->uri->segment(1)=="solution"){echo "selected-nav-option";}?>">Solution</div>
                         </a></li>
                                     <li><a href="<?php echo base_url() ?>index.php/outcome">
-                            <div class="nav-option ">Outcome</div>
+                            <div class="nav-option <?php if($this->uri->segment(1)=="outcome"){echo "selected-nav-option";}?>">Outcome</div>
+                        </a></li>
+                        <li><a href="<?php echo base_url() ?>index.php/whatsnext">
+                            <div class="nav-option <?php if($this->uri->segment(1)=="whatsnext"){echo "selected-nav-option";}?>">What&rsquo;s Next?</div>
                         </a></li>
                                                                 </ul>
         </div>

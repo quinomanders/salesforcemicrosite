@@ -1,6 +1,7 @@
 
 
 
+
 <!--Back to Top Section-->
 <section class="BackToTopSection">
     <div class="container">
@@ -37,6 +38,9 @@
 </footer>
 
 
+
 </body>
 <script src="js/script.js"></script>
+<script>$('body').scrollspy({ target: '#sec_nav_bar' })</script>
+
 </html>

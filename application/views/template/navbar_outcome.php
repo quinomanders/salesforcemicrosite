@@ -15,28 +15,36 @@
 
                     <ul class="nav navbar-nav navbar-nav2 nav-bar-two">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                                                    <li class="">
-                                <a href="#waternexus" class="page-scroll nav2-label linkinsight">
-                                    <div class="nav2-option">Water Nexus</div>
+                                   <li class="">
+                                <a href="#auto" class="page-scroll nav2-label linkinsight">
+                                    <div class="nav2-option">Auto</div>
+                                </a>
+                            </li>
+                                                 <li class="">
+                                <a href="#oilandgas" class="page-scroll nav2-label linkinsight">
+                                    <div class="nav2-option">Oil and Gas</div>
                                 </a>
                             </li>
                                                     <li class="">
-                                <a href="#bank" class="page-scroll nav2-label linkmodel">
-                                    <div class="nav2-option">Power and Automation</div>
+                                <a href="#chemicals" class="page-scroll nav2-label linkmodel">
+                                    <div class="nav2-option">Chemicals</div>
                                 </a>
                             </li>
-                                                   <li class="">
-                                <a href="#oil" class="page-scroll nav2-label linkmodel">
-                                    <div class="nav2-option">Oil</div>
+                            <li class="">
+                                <a href="#electronics" class="page-scroll nav2-label linkinsight">
+                                    <div class="nav2-option">Electronics</div>
                                 </a>
                             </li>
-                            
+                                                 <li class="">
+                                <a href="#industrialproducts" class="page-scroll nav2-label linkinsight">
+                                    <div class="nav2-option">Industrial Products</div>
+                                </a>
+                            </li>
                                                     <li class="">
-                                <a href="#whatsnext" class="page-scroll nav2-label linkmodel">
-                                    <div class="nav2-option">What&rsquo;s Next</div>
+                                <a href="#more" class="page-scroll nav2-label linkmodel">
+                                    <div class="nav2-option">More</div>
                                 </a>
                             </li>
-                                     
                                             </ul>
 
             </div>
