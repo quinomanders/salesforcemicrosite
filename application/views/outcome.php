@@ -6,19 +6,12 @@
 		<div class="window">
 			<div class="holder active" id="integrationnews">
 				<div class="container text-block text-center">
-					<h1 class="sol text-center">Water Nexus</h1>
-					<h4 class="sol text-center">Ease of contact with Water Nexus through call center feature and user portal website and mobile application</h4>
-					<h4 class="sol text-center">Optimized flow of account creation and adding contracts through automated processes, including a live search feature</h4>
-					<h4 class="sol text-center">Optimized usability through the Service Cloud Console</h4>
-					<h4 class="sol text-center">Creation of Reports and Dashboards based on important information to support the business purpose</h4>
+					<h1 class="sol text-center">Auto</h1>
+					<h4 class="sol text-center">Outcome 1</h4>
+					<h4 class="sol text-center">Outcome 2</h4>
+					<h4 class="sol text-center">Outcome 3</h4>
 				</div>
 			</div>
-			<iframe width="600px" height="400" class="float-left" 
-					src="https://www.youtube.com/embed/5hkAVKRZ0B0" 
-					frameborder="0"	allowfullscreen></iframe>
-			<iframe width="600px" height="400"  class="float-left"
-					src="https://www.youtube.com/embed/KKRpgKzKV_M" 
-					frameborder="0"	allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -27,19 +20,12 @@
 		<div class="window">
 			<div class="holder active" id="integrationnews">
 				<div class="container text-block text-center">
-					<h1 class="sol text-center">Water Nexus</h1>
-					<h4 class="sol text-center">Ease of contact with Water Nexus through call center feature and user portal website and mobile application</h4>
-					<h4 class="sol text-center">Optimized flow of account creation and adding contracts through automated processes, including a live search feature</h4>
-					<h4 class="sol text-center">Optimized usability through the Service Cloud Console</h4>
-					<h4 class="sol text-center">Creation of Reports and Dashboards based on important information to support the business purpose</h4>
+					<h1 class="sol text-center">Oil and Gas</h1>
+					<h4 class="sol text-center">Outcome 1</h4>
+					<h4 class="sol text-center">Outcome 2</h4>
+					<h4 class="sol text-center">Outcome 3</h4>
 				</div>
 			</div>
-			<iframe width="600px" height="400" class="float-left" 
-					src="https://www.youtube.com/embed/5hkAVKRZ0B0" 
-					frameborder="0"	allowfullscreen></iframe>
-			<iframe width="600px" height="400"  class="float-left"
-					src="https://www.youtube.com/embed/KKRpgKzKV_M" 
-					frameborder="0"	allowfullscreen></iframe>
 		</div>
 	</div>
 	
@@ -48,19 +34,12 @@
 		<div class="window">
 			<div class="holder active" id="integrationnews">
 				<div class="container text-block text-center">
-					<h1 class="sol text-center">Water Nexus</h1>
-					<h4 class="sol text-center">Ease of contact with Water Nexus through call center feature and user portal website and mobile application</h4>
-					<h4 class="sol text-center">Optimized flow of account creation and adding contracts through automated processes, including a live search feature</h4>
-					<h4 class="sol text-center">Optimized usability through the Service Cloud Console</h4>
-					<h4 class="sol text-center">Creation of Reports and Dashboards based on important information to support the business purpose</h4>
+					<h1 class="sol text-center">Chemicals</h1>
+					<h4 class="sol text-center">Outcome 1</h4>
+					<h4 class="sol text-center">Outcome 2</h4>
+					<h4 class="sol text-center">Outcome 3</h4>
 				</div>
 			</div>
-			<iframe width="600px" height="400" class="float-left" 
-					src="https://www.youtube.com/embed/5hkAVKRZ0B0" 
-					frameborder="0"	allowfullscreen></iframe>
-			<iframe width="600px" height="400"  class="float-left"
-					src="https://www.youtube.com/embed/KKRpgKzKV_M" 
-					frameborder="0"	allowfullscreen></iframe>
 		</div>
 	</div>
 	
@@ -69,19 +48,12 @@
 		<div class="window">
 			<div class="holder active" id="integrationnews">
 				<div class="container text-block text-center">
-					<h1 class="sol text-center">Water Nexus</h1>
-					<h4 class="sol text-center">Ease of contact with Water Nexus through call center feature and user portal website and mobile application</h4>
-					<h4 class="sol text-center">Optimized flow of account creation and adding contracts through automated processes, including a live search feature</h4>
-					<h4 class="sol text-center">Optimized usability through the Service Cloud Console</h4>
-					<h4 class="sol text-center">Creation of Reports and Dashboards based on important information to support the business purpose</h4>
+					<h1 class="sol text-center">Electronics</h1>
+					<h4 class="sol text-center">Outcome 1</h4>
+					<h4 class="sol text-center">Outcome 2</h4>
+					<h4 class="sol text-center">Outcome 3</h4>
 				</div>
 			</div>
-			<iframe width="600px" height="400" class="float-left" 
-					src="https://www.youtube.com/embed/5hkAVKRZ0B0" 
-					frameborder="0"	allowfullscreen></iframe>
-			<iframe width="600px" height="400"  class="float-left"
-					src="https://www.youtube.com/embed/KKRpgKzKV_M" 
-					frameborder="0"	allowfullscreen></iframe>
 		</div>
 	</div>
 	
@@ -90,19 +62,12 @@
 		<div class="window">
 			<div class="holder active" id="integrationnews">
 				<div class="container text-block text-center">
-					<h1 class="sol text-center">Water Nexus</h1>
-					<h4 class="sol text-center">Ease of contact with Water Nexus through call center feature and user portal website and mobile application</h4>
-					<h4 class="sol text-center">Optimized flow of account creation and adding contracts through automated processes, including a live search feature</h4>
-					<h4 class="sol text-center">Optimized usability through the Service Cloud Console</h4>
-					<h4 class="sol text-center">Creation of Reports and Dashboards based on important information to support the business purpose</h4>
+					<h1 class="sol text-center">Industrial Products</h1>
+					<h4 class="sol text-center">Outcome 1</h4>
+					<h4 class="sol text-center">Outcome 2</h4>
+					<h4 class="sol text-center">Outcome 3</h4>
 				</div>
 			</div>
-			<iframe width="600px" height="400" class="float-left" 
-					src="https://www.youtube.com/embed/5hkAVKRZ0B0" 
-					frameborder="0"	allowfullscreen></iframe>
-			<iframe width="600px" height="400"  class="float-left"
-					src="https://www.youtube.com/embed/KKRpgKzKV_M" 
-					frameborder="0"	allowfullscreen></iframe>
 		</div>
 	</div>
 	
