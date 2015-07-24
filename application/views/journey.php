@@ -16,7 +16,7 @@
 					<div class="container text-block">
 						<h3>Auto Description</h3>
 						<h2>Insight:</h2>
-						<h4>https://w3-03.sso.ibm.com/services/practitionerportal/ppServlets/displayDocument.wss?syntheticKey=D596237L69382M71
+						<h4>
 							<ul>
 								<li>Insight into problems 1</li>
 								<li>Insight into problems 2</li>
