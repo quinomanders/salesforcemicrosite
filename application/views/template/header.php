@@ -17,6 +17,8 @@
     <script src="<?php echo base_url() ?>assets/js/jquery.easing.min.js"></script>
     <script src="<?php echo base_url() ?>assets/js/scrolling-nav.js"></script>
 
+     <!-- carousel scripts-->
+    <script src="<?php echo base_url() ?>assets/js/slick.js"></script>
 
 </head>
 

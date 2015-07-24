@@ -1,28 +1,22 @@
 <div class="block-content">
 <div class="nav2-spacer"></div>
 
+
+
     <div class="anchorNav2" id="auto"></div>
-    <div class="block" style="background-color: #4177bc; color: #FFF; padding: 0; padding-top: 72px;">
+    <div class="block " style="background-color: #4177bc; color: #FFF; padding: 0; padding-top: 72px;">
 	<h2>Auto</h2>
 	
-
-	<div class="horizontal-container">
-
-		<div class="navigation" style="border-color: #FFF">
-
-
-			<div class="hexagon item"
-				style="background: #FFF; border-bottom-color: #FFF; border-top-color: #FFF">
-				<i class="fa fa-reorder" style="color: #4177bc"></i>
-			</div>
-		</div>
+	
+<hr class="featurette-divider">
+	
 		<div class="window">
 			<div class="holder active" id="block1info">
 				<div class="block" style="background-color: #4177bc; color: #FFF;">
 					<div class="container text-block">
 						<h3>Auto Description</h3>
 						<h2>Insight:</h2>
-						<h4>
+						<h4>https://w3-03.sso.ibm.com/services/practitionerportal/ppServlets/displayDocument.wss?syntheticKey=D596237L69382M71
 							<ul>
 								<li>Insight into problems 1</li>
 								<li>Insight into problems 2</li>
@@ -35,7 +29,7 @@
 
 		</div>
 	</div>
-</div>
+
 
       
                         <div class="anchorNav2" id="oilandgas"></div>
@@ -47,28 +41,20 @@
 	<br>
 	<h2>Oil and Gas</h2>
 	<br>
-
-	<div class="horizontal-container">
-
-		<div class="navigation" style="border-color: #fff">
-
-
-			<div class="hexagon item "
-				style="background: #fff; border-bottom-color: #fff; border-top-color: #fff">
-				<i class="fa fa-reorder" style="color: #9190c1"></i>
-			</div>
-		</div>
+	
+<hr class="featurette-divider">
+	
 		<div class="window">
 			<div class="holder active" id="detail">
 				<div class="block" style="background-color: #9190c1; color: #FFF;">
 					<div class="container text-block">
-						<h3>Oil and Gas description</h3>
+						<h1>Oil and Gas Company</h1>
 						<h2>Insight:</h2>
 						<h4>
 							<ul>
-								<li>Insight into problems 1</li>
-								<li>Insight into problems 2</li>
-								<li>Insight into problems 3</li>
+								<li>Connected company through employee specific apps</li>
+								<li>Cross market visibility</li>
+								<li>Rapid changes of regulations/competition</li>
 							</ul>
 							</h4>
 					</div>
@@ -77,7 +63,7 @@
 
 		</div>
 	</div>
-</div>
+
 
       
                         <div class="anchorNav2" id="chemicals"></div>
@@ -89,21 +75,13 @@
 	<h2>Chemicals</h2>
 	<br>
 
-	<div class="horizontal-container">
-
-		<div class="navigation" style="border-color: #fff">
-
-
-			<div class="hexagon item "
-				style="background: #fff; border-bottom-color: #fff; border-top-color: #fff">
-				<i class="fa fa-reorder" style="color: #9190c1"></i>
-			</div>
-		</div>
+		
+<hr class="featurette-divider">
 		<div class="window">
 			<div class="holder active" id="detail">
 				<div class="block" style="background-color:#434493; color: #FFF;">
 					<div class="container text-block">
-						<h3>Chemicals Description </h3>
+						<h3>C&P Company</h3>
 						<h2>Insight:</h2>
 						<h4>
 							<ul>
@@ -118,7 +96,7 @@
 
 		</div>
 	</div>
-</div>
+
 
 
       
@@ -131,36 +109,69 @@
 	<h2>Electronics</h2>
 	<br>
 
-	<div class="horizontal-container">
-
-		<div class="navigation" style="border-color: #fff">
-
-
-			<div class="hexagon item "
-				style="background: #fff; border-bottom-color: #fff; border-top-color: #fff">
-				<i class="fa fa-reorder" style="color: #9190c1"></i>
-			</div>
-		</div>
+	
+<hr class="featurette-divider">
+		
 		<div class="window">
 			<div class="holder active" id="detail">
 				<div class="block" style="background-color:#91D5F2; color: #FFF;">
 					<div class="container text-block">
-						<h3>Electronics Description </h3>
+						<h1>Computer technology company</h1>
+						<h3>
+						</h3>
 						<h2>Insight:</h2>
 						<h4>
 							<ul>
-								<li>Insight into problems 1</li>
-								<li>Insight into problems 2</li>
-								<li>Insight into problems 3</li>
+								<li>Effectively manage related Opportunities and overall business pipeline</li>
+								<li>Opportunity Management tool to be inplace and ready to go on day 1</li>
+								
 							</ul>
 							</h4>
+							
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	<br>
+						<h1>Communications Company</h1>
+						<h3>
+						</h3>
+						<h2>Insight:</h2>
+						<h4>
+							<ul>
+								<li>Cchallenges of manual processes for quoting</li>
+								<li>inability to efficiently service customers</li>
+								<li>successfully deploy Salesforce.com and Sterling CPQ to streamline sales and support customer service</li>
+							</ul>
+							</h4>
+							<br>
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	<br>
+							
+							<h1>Communications Company</h1>
+						<h3>
+						</h3>
+						<h2>Insight:</h2>
+						<h4>
+							<ul>
+								<li>Improve sales to Customers and Prospects, but go beyond basics</li>
+								<li>Sell more complex, Cloud based products</li>
+								
+							</ul>
+							</h4>
+							
+							
 					</div>
+					
 				</div>
 			</div>
 
 		</div>
 	</div>
-</div>
+
 
       
                         <div class="anchorNav2" id="industrialproducts"></div>
@@ -172,27 +183,19 @@
 	<h2>Industrial Products</h2>
 	<br>
 
-	<div class="horizontal-container">
-
-		<div class="navigation" style="border-color: #fff">
-
-
-			<div class="hexagon item "
-				style="background: #fff; border-bottom-color: #fff; border-top-color: #fff">
-				<i class="fa fa-reorder" style="color: #9190c1"></i>
-			</div>
-		</div>
+		
+<hr class="featurette-divider">
 		<div class="window">
 			<div class="holder active" id="detail">
 				<div class="block" style="background-color:#22A8A0; color: #FFF;">
 					<div class="container text-block">
-						<h3>Industrial Products Description </h3>
+						<h1>Power Company </h1>
 						<h2>Insight:</h2>
 						<h4>
 							<ul>
-								<li>Insight into problems 1</li>
-								<li>Insight into problems 2</li>
-								<li>Insight into problems 3</li>
+								<li>Multiple programs for order capture</li>
+								<li>Outdated software cannot keep up with workload</li>
+								<li>Current software is not user friendly</li>
 							</ul>
 							</h4>
 					</div>
@@ -201,7 +204,7 @@
 
 		</div>
 	</div>
-</div>
+
 
       
                         <div class="anchorNav2" id="more"></div>
@@ -212,17 +215,9 @@
 	<br>
 	<h2>More</h2>
 	<br>
-
-	<div class="horizontal-container">
-
-		<div class="navigation" style="border-color: #fff">
-
-
-			<div class="hexagon item "
-				style="background: #fff; border-bottom-color: #fff; border-top-color: #fff">
-				<i class="fa fa-reorder" style="color: #9190c1"></i>
-			</div>
-		</div>
+	
+<hr class="featurette-divider">
+	
 		<div class="window">
 			<div class="holder active" id="detail">
 				<div class="block" style="background-color:#E05C5C; color: #FFF;">
@@ -245,7 +240,7 @@
 
 		</div>
 	</div>
-</div>
+
 
 </div>
 

@@ -989,3 +989,19 @@ footer {
   background-color: #000;
 } 
 
+
+
+li.sfList{}
+
+li.sfListimg{margin-bottom: -10px;}
+
+li.sfListspan{padding-bottom: 25px;}
+
+.clearfix{clear: both;}
+
+.custom-bg{background-image:url('../img/bg.jpg');}
+
+
+.white{color: white;}
+
+.blue{color: #00A0DE;}
