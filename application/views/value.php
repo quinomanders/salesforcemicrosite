@@ -28,10 +28,8 @@
 				      <h2 class="featurette-heading"><span class="text-muted"></span></h2>
 				   
 				    	<hr class="featurette-divider">			
-				          <h2 class="featurette-heading"><span class="text-muted"><font color="#28324E">Systems of Engagement</font></span></h2><br>
-				         			
-				          <div class="col-md-6">
-				           <font color="#28324E"><h3><center>Salesforce</center></h3></font>
+				           <div class="col-md-6">
+				           <font color="#28324E"><h2><center>Salesforce</center></h2></font>
 				          <p class="lead">
 				          <i>World's #1 CRM Company</i><br>
 				          - IDC<br><br>
@@ -41,7 +39,7 @@
 				          - Fortune<br></p>
 				          </div>
 				          <div class="col-md-6">
-				           <font color="#28324E"><h3><center>IBM</center></h3></font>
+				           <font color="#28324E"><h2><center>IBM</center></h2></font>
 				          <p class="lead">
 				          <i>Largest Global Digital Agency</i><br>
 				          - AdAge<br><br>
