@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-  //$config['base_url'] = 'https://peaceful-beyond-6584.herokuapp.com/';
+  $config['base_url'] = 'https://peaceful-beyond-6584.herokuapp.com/';
   //$config['base_url'] = 'http://localhost/salesforce';
 
 /*
