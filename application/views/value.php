@@ -153,7 +153,7 @@
 				        <div class="col-md-5">
 				          <h6>Why Sales Cloud?</h6>
 				              
-							<img src="<?php echo base_url() ?>assets/img/sales2.PNG" width="240px"/>
+							<img src="<?php echo base_url() ?>assets/img/sales2.png" width="240px"/>
 				         
 				          </div>
 				          <div class="col-md-7">
@@ -185,7 +185,7 @@
 
 				          <h6>Why Service Cloud?</h6>
 				                <h7>  
-							<img src="<?php echo base_url() ?>assets/img/service2.PNG" width="240px"/>
+							<img src="<?php echo base_url() ?>assets/img/service2.png" width="240px"/>
 				                </h7>
 				          </div>
 				         
@@ -196,7 +196,7 @@
 				        <div class="col-md-5">
 				          <h6>Why Marketing Cloud?</h6>
 				              
-							<img src="<?php echo base_url() ?>assets/img/marketing2.PNG" width="240px"/>
+							<img src="<?php echo base_url() ?>assets/img/marketing2.png" width="240px"/>
 				         
 				          </div>
 				          <div class="col-md-7">
@@ -229,7 +229,7 @@
 
 				          <h6>Why Community Cloud?</h6>
 				                <h7>  
-							<img src="<?php echo base_url() ?>assets/img/community2.PNG" width="240px"/>
+							<img src="<?php echo base_url() ?>assets/img/community2.png" width="240px"/>
 				                </h7>
 				          </div>
 				         
@@ -240,7 +240,7 @@
 				        <div class="col-md-5">
 				          <h6>Why Analytics Cloud?</h6>
 				              
-							<img src="<?php echo base_url() ?>assets/img/analytics2.PNG" width="240px"/>
+							<img src="<?php echo base_url() ?>assets/img/analytics2.png" width="240px"/>
 				         
 				          </div>
 				          <div class="col-md-7">
@@ -272,7 +272,7 @@
 
 				          <h6>Why Salesforce1 Platform?</h6>
 				                <h7>  
-							<img src="<?php echo base_url() ?>assets/img/sf12.PNG" width="240px"/>
+							<img src="<?php echo base_url() ?>assets/img/sf12.png" width="240px"/>
 				                </h7>
 				          </div>
 				          </div>

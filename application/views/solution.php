@@ -35,14 +35,14 @@
 				    					
 				            <div class="col-md-3">
 				         			<p class="lead"><font color="#28324E"><b>Transform Customer Experience</b></font><br>
-				         			<br><img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/picture1.png" width="90px">
+				         			<br><img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/Picture1.png" width="90px">
 				         			<p class="lead">Improve brand experience by leveraging consumer 
 				         			data and interactive technologies to build deeper, more meaningful relationships with consumers.
 				       	          	</p>
 				       	          </div>
 							<div class="col-md-3">
 				       	        <p class="lead"><font color="#28324E"><b>Capitalize on intelligent, connected vehicles</b></font><br><br>
-				         			<img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/picture2.png" width="90px">
+				         			<img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/Picture2.png" width="90px">
 				         			<p class="lead">Enable new services and business models by leveraging big data and analytics, 
 				         			cloud, mobile and security technologies to connect vehicles
 
@@ -58,7 +58,7 @@
 				       	          </div>
 							<div class="col-md-3">
 				       	        <p class="lead"><font color="#28324E"><b>Build dynamic, collaborative value nets</b></font><br><br>
-				         			<img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/picture4.png" width="90px">
+				         			<img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/Picture4.png" width="90px">
 				         			<p class="lead">Optimize manufacturing productivity and quality by creating an 
 				         			end-to-end view of the value chain and make better decisions to improve material and production flows
 				       	          	</p>
