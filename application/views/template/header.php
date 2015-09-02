@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/styles.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
 
 	<!-- scrolling nav scripts -->
