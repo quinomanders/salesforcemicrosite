@@ -57,7 +57,7 @@ body{
 }
 
 /*******    Moonwalk scrolling      *******/
-#element::-webkit-scrollbar {
+element::-webkit-scrollbar {
     display: none;
 }
 .horizontal-container{
@@ -110,7 +110,7 @@ body{
     left:0 !important;
 }
 .holder .block{
-    padding:80px 0;
+    padding:20px 0;
 }
 .horizontal-container .block{
     width:100%;
@@ -174,21 +174,18 @@ h2 .hexagon{display:inline-block; margin:0px;}
 
 .block-content h1 {
 	font-size: 60px;
-	font-weight: bold;
 	line-height: 66px;
 	margin: 10px 0;
 }
 
 .block-content h1.sol {
 	font-size: 60px;
-	font-weight: bold;
 	line-height: 66px;
 	margin-top: 80px;
 }
 
 .block-content h2 {
 	font-size: 34px;
-	font-weight: bold;
 	margin-top: 30px;
     clear: both;
 }
@@ -289,6 +286,42 @@ h2 .hexagon{display:inline-block; margin:0px;}
 	font-style: italic;
 }
 
+.popup-content h6 {
+    margin: 20px 0 30px;
+    font-size: 26px;
+    color: #00B050;
+    text-align: center;
+}
+
+.popup-content h7 {
+    margin: 20px 0 30px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.popup-content h9 {
+    margin: 20px 0 30px;
+    font-size: 14px;
+    color: #28324E;
+    text-align: left;
+}
+
+.popup-content h10 {
+    margin: 20px 0 30px;
+    font-size: 14px;
+    color: #00000;
+    text-align: left;
+    text-decoration: bold, italic;
+}
+
+.popup-content h8 {
+    margin: 20px 0 30px;
+    font-size: 26px;
+    color: #00B050;
+    text-align: left;
+}
+
 .blogpost .IBM-Blog-Face {
   margin-top: 20px;
   border-radius: 50%;
@@ -333,7 +366,6 @@ h2 .hexagon{display:inline-block; margin:0px;}
 }
 
 
-
 .made-section h3{
   margin: 0px 0 20px 0;
   font-size: 20px;
@@ -359,7 +391,7 @@ h2 .hexagon{display:inline-block; margin:0px;}
 
 .block {
 	  background-size: cover;
-	  padding: 20px 0px;
+	  padding: 0px 0px;
 }
 
 .arrow {
@@ -395,7 +427,7 @@ h2 .hexagon{display:inline-block; margin:0px;}
 }	
 
 .navbar{
-	  text-align: left;
+	  text-align: center;
 }
 .navbar-default .nav.nav-bar-two>.active>a{
     text-align:center;    background-color:#666 !important;
@@ -403,7 +435,6 @@ h2 .hexagon{display:inline-block; margin:0px;}
 .navbar-default .navbar-nav.nav-bar-two a:hover {
     background-color:#555 !important;
 }
-
 
 /*Team Carousel Styles*/
 
@@ -485,6 +516,10 @@ h2 .hexagon{display:inline-block; margin:0px;}
     background-color: #8C8E8C;
 }
 
+.nav {
+
+}
+
 .navbar-default .navbar-nav li .nav2-label{
     color:white;
 }
@@ -509,6 +544,7 @@ padding-bottom: 8px;
 padding-left: 2px;
 padding-right: 2px;
 float:none;
+text-align: center;
 }
 
 .nav-option{
@@ -540,18 +576,38 @@ border-bottom:2px #00A0DE solid;
   border: none;
 }
 
+.nav-bar-one{
+    background-color: #ffffff;
+    border: none;
+}
+
 /* CHANGES QUINO*/
+
+
+.picvalue {
+    height:730px;
+    width: auto;
+}
+
 .nav2-option{
     text-align: center;
 
 }
 
+.nav1-option{
+    text-align: center;
+}
 
 .nav-bar-two{
     height: 70px;
     display: inline-block;
     float: none;
 
+}
+
+.nav-bar-one {
+    display: inline-block;
+    float: none;
 }
 
 
@@ -566,6 +622,33 @@ ul.navbar-nav2 li a {
     vertical-align: middle;
 }
 
+ul.navbar-nav1 li{
+    width: 160px;
+    display: table;
+}
+ul.navbar-nav1 li a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    padding-left: 80px;
+    padding-right: 50px;
+    color: #00A0DE;
+    padding-top: 5px;
+}
+
+.brandlogo {
+    height: 40px;
+    width: auto;
+}
+
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
 .linkblock1{background-repeat: no-repeat; background-image: url('../images/Picture1.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important;}
 
 .linkblock2{background-repeat: no-repeat; background-image: url('../images/Picture2.png'); background-size: 40px 43px; background-position: 15px 13px; overflow: visible !important; z-index: 999999999;}
@@ -723,7 +806,7 @@ ul.navbar-nav2 li a {
 .portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
-	font-weight: 100;
+	font-weight: 400;
 	float: none;
     height: 60px;
 }
@@ -748,6 +831,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+
 .portfolio-modal .modal-content {
     padding: 50px 0;
     min-height: 100%;
@@ -757,25 +841,38 @@ section h3.section-subheading {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #002236;
 }
 
-.portfolio-modal .modal-content p {
+.portfolio-modal .modal-content2 {
+    padding: 50px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #ffffff;
+}
+
+.portfolio-modal .modal-content .modal-content2 p {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content p.item-intro {
+.portfolio-modal .modal-content .modal-content2 p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.portfolio-modal .modal-content .modal-content2 ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content .modal-content2 img {
     margin-bottom: 30px;
 }
 
@@ -798,7 +895,7 @@ section h3.section-subheading {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #00A0DE;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -808,7 +905,7 @@ section h3.section-subheading {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #00A0DE;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

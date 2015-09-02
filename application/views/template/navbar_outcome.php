@@ -40,12 +40,8 @@
                                     <div class="nav2-option">Industrial Products</div>
                                 </a>
                             </li>
-                                                    <li class="">
-                                <a href="#more" class="page-scroll nav2-label linkmodel">
-                                    <div class="nav2-option">More</div>
-                                </a>
-                            </li>
-                                            </ul>
+                            
+                        </ul>
 
             </div>
             <!-- /.navbar-collapse -->

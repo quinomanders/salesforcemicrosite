@@ -1,24 +1,79 @@
 <div class="block-content">
 <div class="nav2-spacer"></div>
 
-	<div class="anchorNav2" id="auto"></div>
-	<div class="block" style="background-color: #4177bc; background-image: url(); padding: 0;">
+<div class="anchorNav2" id="auto"></div>
+	<div class="block" style="background-color: #002738; color: #75706B;">
 		<div class="window">
 			<div class="holder active" id="integrationnews">
-			<br>
-			<br>
-			<br>
-			<h1>Auto</h1>
-				<hr class="featurette-divider">
-				<div class="container text-block text-center">
-					<h1 class="sol text-center">name</h1>
-					<h4 class="sol text-center">Outcome 1</h4>
-					<h4 class="sol text-center">Outcome 2</h4>
-					<h4 class="sol text-center">Outcome 3</h4>
+				<div class="block" style="color: #efefef;">
+					<div class="container text-block"><br><br>
+						<h2 class="sol text-center">Automotive Case Studies</h2>
+					</div>
 				</div>
-			</div>
+				<div class="container text-block text-center">
+					<hr class="featurette-divider">
+					
+				    <h2 class="featurette-heading"><span class="text-muted"><font color="#efefef"><center>Jaguar & Landrover Virtual Experience</center></font></span></h2>
+				    <p class="lead"><font color="#62DBAC">Enhancing the customer experience through the whole sales process</font></p>
+				          <div class="col-md-8"><br><br>
+				         
+				         			<p class="lead"><font color="#efefef">Insight</font>
+				         			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</li>
+				         			<p class="lead"><font color="#efefef">Idea</font><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+				         			<p class="lead"><font color="#efefef">Impact</font><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+				       	          	</p>
+				       	          </div>
+							<div class="col-md-4">
+								<br><br><br><br><img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/jaguar.png" width="120px"><br>
+				       	    	<img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/landrover.png" width="120px"><br><br>
+				       	    </div>
+					<div class="row portfolio" style="margin-top: 50px;">
+				
+				
+				</div>
+				<hr class="featurette-divider">
+				<h2 class="featurette-heading"><span class="text-muted"><font color="#efefef">US Auto Maker Globally Connected Consumer</font></span></h2>
+				    <p class="lead"><font color="#62dbac">The art of customer engagement</font></p>
+					<div class="col-md-7">
+								<br><img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/us.png" width="620px"><br>
+				       	    	
+				       	    </div>
+				          <div class="col-md-5"><br><br>
+				         
+				         			<p class="lead"><font color="#efefef">Insight</font><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+				         			<p class="lead"><font color="#efefef">Idea</font><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+				         			<p class="lead"><font color="#efefef">Impact</font><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+				       	          	</p>
+				       	          </div>
+							
+					<div class="row portfolio" style="margin-top: 50px;">
+				</div>
+						<hr class="featurette-divider">
+				<h2 class="featurette-heading"><span class="text-muted"><font color="#efefef"><center>GM OnStar</center></font></span></h2>
+				    <p class="lead"><font color="#62DBAC">Globally Connected Consumer: The Art of Customer Engagement</font></p>
+				          <div class="col-md-5"><br><br>
+				         
+				         			<p class="lead"><font color="#efefef">Insight</font>
+				         			<br>- Build technologies to capture marketing insight into customer behaviors and inform them of new offers, commerce, and future engagement services
+									</li>
+				         			<p class="lead"><font color="#efefef">Idea</font><br>- Create an interconnected partner ecosystem for Apps, Services, and Commerce, based upon a user model vs. a vehicle model
+				         			<br>- The platform will enable seamless, multi-channel access as well as personalized in-vehicle experience 
+				         							       	          	</p>
+				       	          </div>
+							<div class="col-md-7">
+								<br><br><br><img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/GM.png" width="500px"><br>
+				       	    	
+				       	    </div>
+
+					<div class="row portfolio" style="margin-top: 50px;">
+
+		
 		</div>
+		<p class="lead"><font color="#efefef">Impact</font><br>Differentiation of GM and its vehicle brands | Continuous customer engagement with GM’s brands, partners, and services 
+				         			| Create an emotional attachment to the vehicle and the GM brand
+		<hr class="featurette-divider">
 	</div>
+</div>
 
 	<div class="anchorNav2" id="oilandgas"></div>
 	<div class="block" style="background-color: #9190c1; background-image: url(); padding: 0;">
@@ -112,26 +167,7 @@
 		</div>
 	</div>
 	
-	<div class="anchorNav2" id="more"></div>
-	<div class="block" style="background-color: #E05C5C; background-image: url(); padding: 0;">
-		<div class="window">
-			<div class="holder active" id="integrationnews">
-				<div class="container text-block text-center">
-					<h1 class="sol text-center">Water Nexus</h1>
-					<h4 class="sol text-center">Ease of contact with Water Nexus through call center feature and user portal website and mobile application</h4>
-					<h4 class="sol text-center">Optimized flow of account creation and adding contracts through automated processes, including a live search feature</h4>
-					<h4 class="sol text-center">Optimized usability through the Service Cloud Console</h4>
-					<h4 class="sol text-center">Creation of Reports and Dashboards based on important information to support the business purpose</h4>
-				</div>
-			</div>
-			<iframe width="600px" height="400" class="float-left" 
-					src="https://www.youtube.com/embed/5hkAVKRZ0B0" 
-					frameborder="0"	allowfullscreen></iframe>
-			<iframe width="600px" height="400"  class="float-left"
-					src="https://www.youtube.com/embed/KKRpgKzKV_M" 
-					frameborder="0"	allowfullscreen></iframe>
-		</div>
-	</div>
+	
 	
 	
 </div>

@@ -17,12 +17,12 @@
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                                                     <li class="">
                                 <a href="#why" class="page-scroll nav2-label linkinsight">
-                                    <div class="nav2-option">Why?</div>
+                                    <div class="nav2-option">What?</div>
                                 </a>
                             </li>
                                                     <li class="">
                                 <a href="#salesforce" class="page-scroll nav2-label linkmodel">
-                                    <div class="nav2-option">Salesforce</div>
+                                    <div class="nav2-option">How?</div>
                                 </a>
                             </li>
                                             </ul>
