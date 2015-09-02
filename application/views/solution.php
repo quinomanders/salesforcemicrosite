@@ -17,8 +17,8 @@
 				   
 				          <div class="col-md-6">
 				          <h2 class="featurette-heading"><span class="text-muted"><font color="#ffffff"><center>The Future of Automotive</center></font></span></h2><br>
-				         			<li><p class="lead">By 2015: <i>"50% of all new cars will be connected"</i><br>(embedded, tethered or integrated smartphone)</li><br>
-				         			<li><p class="lead">By 2020: <i>"A quarter billion connected vehicles will enable new in-vehicle services and automated driving capabilities"</i></li>
+				         			<p class="lead">By 2015: <i>"50% of all new cars will be connected"</i><br>(embedded, tethered or integrated smartphone)<br>
+				         			<p class="lead">By 2020: <i>"A quarter billion connected vehicles will enable new in-vehicle services and automated driving capabilities"</i>
 				       	          	</p>
 				       	          </div>
 							<div class="col-md-6">
