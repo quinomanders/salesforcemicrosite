@@ -72,15 +72,15 @@
 				    		<img class="featurette-image img-responsive center-block" src="<?php echo base_url() ?>assets/img/ibmhybrid2.png" width="1000px">			
 				            <div class="col-md-4">
 				         			<p class="lead"><font color="#28324E"><b>Value</b></font><br>
-				         			<p class="lead"><li>Rapid application development</li>
-				         			<p class="lead"><li>API-accessible applications</li>
+				         			<p class="lead"><li>Rapid application development & <br> 
+				         			API-accessible applications</li>
 			         				<p class="lead"><li>Multi-channel integration</li>
 				       	          	</p>
 				       	          </div>
 							<div class="col-md-4">
 				       	        <p class="lead"><font color="#28324E"><b>Capability</b></font><br>
-				         			<p class="lead"><li>Composition of services</li>
 				         			<p class="lead"><li>Marketplace of internal and external services</li>
+				         			<p class="lead"><li>Composition of services</li>
 
 				       	          	</p>
 				       	    </div>
